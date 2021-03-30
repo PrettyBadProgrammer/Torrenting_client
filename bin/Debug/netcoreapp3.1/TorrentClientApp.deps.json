@@ -1,0 +1,129 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TorrentClientApp/1.0.0": {
+        "dependencies": {
+          "TorrentClient": "1.0.0"
+        },
+        "runtime": {
+          "TorrentClientApp.dll": {}
+        }
+      },
+      "DefensiveProgrammingFramework/1.0.2": {
+        "dependencies": {
+          "Microsoft.CodeAnalysis.FxCopAnalyzers": "2.6.0",
+          "StyleCop.Analyzers": "1.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DefensiveProgrammingFramework.dll": {
+            "assemblyVersion": "1.0.2.1",
+            "fileVersion": "1.0.2.1"
+          }
+        }
+      },
+      "Microsoft.CodeAnalysis.FxCopAnalyzers/2.6.0": {
+        "dependencies": {
+          "Microsoft.CodeQuality.Analyzers": "2.6.0",
+          "Microsoft.NetCore.Analyzers": "2.6.0",
+          "Microsoft.NetFramework.Analyzers": "2.6.0",
+          "Text.Analyzers": "2.6.0"
+        }
+      },
+      "Microsoft.CodeQuality.Analyzers/2.6.0": {},
+      "Microsoft.NetCore.Analyzers/2.6.0": {},
+      "Microsoft.NetFramework.Analyzers/2.6.0": {},
+      "Newtonsoft.Json/11.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.1.21818"
+          }
+        }
+      },
+      "StyleCop.Analyzers/1.0.2": {},
+      "Text.Analyzers/2.6.0": {},
+      "TorrentClient/1.0.0": {
+        "dependencies": {
+          "DefensiveProgrammingFramework": "1.0.2",
+          "Newtonsoft.Json": "11.0.1"
+        },
+        "runtime": {
+          "TorrentClient.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TorrentClientApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DefensiveProgrammingFramework/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sMVRHFhWx4yinihJmhDTYZK4odgQ37N725MzH4X9v4n8hCX+gACJ6Id6VsElwZ09Gq1SdBleSSNfxEZjF1QjwA==",
+      "path": "defensiveprogrammingframework/1.0.2",
+      "hashPath": "defensiveprogrammingframework.1.0.2.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.FxCopAnalyzers/2.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fXL2JWK8mJ4gnwG17mJYwB501mYy3kPI2XD6gbMdIbvGkfOZD/VLzvOkaWlYIEoaD+N4f1leMOFGAtV1GZ+oKw==",
+      "path": "microsoft.codeanalysis.fxcopanalyzers/2.6.0",
+      "hashPath": "microsoft.codeanalysis.fxcopanalyzers.2.6.0.nupkg.sha512"
+    },
+    "Microsoft.CodeQuality.Analyzers/2.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nSs2yuSHwpi741zfpOBkxC2h91MqUcFCU0U0XnE+A0VRKqOBbkRydlFF0eSiRRJaA6VAwdAPFIbSqzvor3cQ9w==",
+      "path": "microsoft.codequality.analyzers/2.6.0",
+      "hashPath": "microsoft.codequality.analyzers.2.6.0.nupkg.sha512"
+    },
+    "Microsoft.NetCore.Analyzers/2.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MDJCn1S3AvLjTIIPbm1ZOZi9F3SmOCSPFGvtUlcymcX9OJYw/VMzo3lk2s7KXqSENbP6tmsUiY+c0FNWGW61IQ==",
+      "path": "microsoft.netcore.analyzers/2.6.0",
+      "hashPath": "microsoft.netcore.analyzers.2.6.0.nupkg.sha512"
+    },
+    "Microsoft.NetFramework.Analyzers/2.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8R6TnUHBPB60uYOz3vBnocmq7Uqhq49Oi7Kp2uXWINO0M7cm090blPzKn6OdCIdOP1L+RlmV2YkY0hnKhPYBoA==",
+      "path": "microsoft.netframework.analyzers/2.6.0",
+      "hashPath": "microsoft.netframework.analyzers.2.6.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/11.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pNN4l+J6LlpIvHOeNdXlwxv39NPJ2B5klz+Rd2UQZIx30Squ5oND1Yy3wEAUoKn0GPUj6Yxt9lxlYWQqfZcvKg==",
+      "path": "newtonsoft.json/11.0.1",
+      "hashPath": "newtonsoft.json.11.0.1.nupkg.sha512"
+    },
+    "StyleCop.Analyzers/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3xD87lafnVhsSEtJKk50G7FGutvaXkFz4XrrLrxnk/DhZU42dnCGWUsvKuBv4mTS0XdIgTY88tLhxW/8Vi3Pow==",
+      "path": "stylecop.analyzers/1.0.2",
+      "hashPath": "stylecop.analyzers.1.0.2.nupkg.sha512"
+    },
+    "Text.Analyzers/2.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OhgoJu18GveXoxoXqBJvj0WDfQdghrw+v2GdTnArZWfLqsP9lgmseYEKb5b1sIEvOBfzcnY6rGrz2eeKeVLs5Q==",
+      "path": "text.analyzers/2.6.0",
+      "hashPath": "text.analyzers.2.6.0.nupkg.sha512"
+    },
+    "TorrentClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
